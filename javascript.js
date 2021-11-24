@@ -20,5 +20,5 @@ let removeNav = function (){
 window.addEventListener('resize', removeNav);
 
 
-ps. I couldn't get this javascript code to work anyway.
+ps. I couldn't get this javascript code to work anyway. Plus it wasn't required as part of the project.
 */
