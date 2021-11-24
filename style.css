@@ -1,0 +1,170 @@
+* {
+	font-family:  Helvetica;
+	font-size: 22px;
+	color:  seashell;
+	background-color: black;
+	opacity:  0.9;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Header and Banner Section */
+
+header {
+	display: inline;
+	height: 69px;
+	width: 100%; 
+	border-bottom: 1px solid seashell;
+	position: fixed; /* maybe fixed?? */
+	top: 0;
+	z-index: 10;
+	left: 0;
+}
+
+header img {
+	float: left;
+	margin: 9px;
+	height: 50px;
+}
+
+header nav {
+	float: right;
+	width: 300px;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 69px;
+}
+
+.banner {
+	margin-top: 60px;
+	margin-bottom: 70px;
+	background-image: url('./img-mission-background.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 700px;
+	display: flex;
+	align-items: center;
+}
+
+.mission {
+	display: block;
+	width: 100%;
+	background-color: black;
+	z-index: 5;
+}
+
+/* Tea Types Section */
+
+.teaMonth .title {
+	display: block;
+}
+
+.teaTypes {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	width: 70%;
+	margin: auto;
+}
+
+.teaTypes div {
+	display: block;
+	margin: 0px 15px;
+}
+
+.teaTypes div img {
+	width: 300px;
+	height: 200px;
+}
+
+.teaTypes div h4 {
+	margin-top: 10px;
+}
+
+/* Locations Section */
+
+.locations {
+	min-height: 500px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 50px;
+	background-image: url('./img-locations-background.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.locations .title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.title h2 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.locations .locationDataBlocks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.locationDataBlocks div {
+	width: 300px;
+	height: 300px;
+	margin: 15px 20px;
+	background-color: black;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Contact and Footer */
+
+.contact {
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-start;
+}
+
+footer p {
+	margin: 20px 20px;
+}
+
+/*
+@media only screen and (max-width: 500px){
+
+nav {
+	display: none;
+}
+
+}
+*/
+
