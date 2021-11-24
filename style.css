@@ -20,7 +20,7 @@ body {
 /* Header and Banner Section */
 
 header {
-	display: inline;
+	display: flex;
 	height: 69px;
 	width: 100%; 
 	border-bottom: 1px solid seashell;
